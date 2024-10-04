@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipeRefreshLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/santiagorealmadrid15">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"> <!-- Center the contents -->
+
+        <!-- Other components, like your TextView -->
+        <TextView
+            android:id="@+id/resultTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submitted Data:"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!-- Button to open the bottom sheet -->
+        <Button
+            android:id="@+id/openBottomSheetButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Open Bottom Sheet"
+            android:layout_marginTop="16dp" /> \
+    </LinearLayout>
+</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
